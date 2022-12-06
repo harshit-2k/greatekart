@@ -156,5 +156,5 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS',cast=bool)
 
 import os
-STATICFILES_DIRS= os.path.join(BASE_DIR,'static')
+STATICFILES_DIRS= os.path.join(BASE_DIR,'kart/static')
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
