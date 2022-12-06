@@ -1,0 +1,12 @@
+{% autoescape off %}
+
+hi {{ user.first_name }},
+
+Please click on below link to CONFIRM your REGISTRATION on Greatcart .
+
+http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+If you think It's not you , please IGNORE this E-Mail . 
+
+
+{%endautoescape %}
